@@ -25,7 +25,7 @@
                 <br>
                 <a href="{{ asset('/img/more/poster-v4-good-Vii-v3.jpg') }}" class="more-btn galelry-lightbox">ดูเพิ่มเติม <i class="bx bx-chevron-right"></i></a>
               </div>
-            </div>
+            </div >
           </div>
           <div class="col-lg-8 d-flex align-items-stretch">
             <div class="icon-boxes d-flex flex-column justify-content-center">
