@@ -129,12 +129,18 @@
     <section id="counts" class="counts">
       <div class="container">
 
+        <div class="section-title">
+          <h2>วีเช็ค (ประเทศไทย)</h2>
+          <p>เราภูมิใจที่ได้ให้บริการและช่วยให้คนไทยมีความปลอดภัยหายห่วงกับทุกสถานการณ์</p>
+          <br>
+        </div>
+
         <div class="row">
 
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <i class="fas fa-car-alt"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="387" data-purecounter-duration="1" class="purecounter"></span>
               <p>ลงทะเบียนแล้ว</p>
             </div>
           </div>
@@ -142,15 +148,15 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="fas fa-car-crash"></i>
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-              <p>แจ้งเตือนหาเจ้าของรถ</p>
+              <span data-purecounter-start="0" data-purecounter-end="268" data-purecounter-duration="1" class="purecounter"></span>
+              <p>ViiCHECK ช่วยเหลือแล้ว</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="fas fa-gift"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="26" data-purecounter-duration="1" class="purecounter"></span>
               <p>ได้รับของรางวัล</p>
             </div>
           </div>
@@ -158,7 +164,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="far fa-laugh-squint"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="254" data-purecounter-duration="1" class="purecounter"></span>
               <p>พึงพอใจ</p>
             </div>
           </div>
