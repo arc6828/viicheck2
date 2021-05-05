@@ -62,7 +62,10 @@
   <header id="header" class="fixed-top" style="border-bottom: 2px solid red;">
     <div class="container d-flex align-items-center" >
       <div class="row">
-        <div class="col-3">
+        <div class="col-3 d-none d-lg-block">
+            <a href="{{URL::to('/')}}"><img width="70%" src="{{ asset('/img/logo/VII-check-LOGO-W-v1.png') }}"></a>
+        </div>
+        <div class="col-6 d-block d-md-none">
             <a href="{{URL::to('/')}}"><img width="70%" src="{{ asset('/img/logo/VII-check-LOGO-W-v1.png') }}"></a>
         </div>
       </div>
@@ -98,10 +101,9 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav> -->
       <!-- .navbar -->
-      <div style="padding-top: 20px;">
-          <a href="https://market.viicheck.com/login" class="appointment-btn scrollto"><span class="d-none d-md-inline">เข้าสู่ระบบ</a>
+      <div  style="padding-top: 10px; ">
+          <a href="https://market.viicheck.com/login" class="appointment-btn scrollto"><span class="d-block d-md-inline">เข้าสู่ระบบ</a>
       </div>
-      
     </div>
   </header><!-- End Header -->
 
@@ -113,7 +115,7 @@
 
     <div class="container d-md-flex py-4">
 
-      <div class="me-md-auto text-center text-md-start">
+      <div class="d-none d-lg-block me-md-auto text-center text-md-start">
         <div class="credits">
           <div class="row">
             <div class="col-1">
@@ -161,6 +163,55 @@
         </div>
       </div>
     </div>
+
+    <!---------------------footer mobile ------------->
+    <div class="d-block d-md-none container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="credits">
+          <div class="row" style="margin-top:-40px;">
+            <div class="col-3">
+                <p id="Certificate-banners"></p>
+            </div>
+            <div class="col-2">
+                <img width="100%" src="{{ asset('/img/logo/GreenLogo.png') }}">
+            </div>
+            <div class="col-3">
+                <img width="100%" src="{{ asset('/img/logo/js100.png') }}">
+            </div>
+            <div class="col-3">
+                <img width="100%" src="{{ asset('/img/logo/Southern_Coffee.png') }}">
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                  <div class="col-12">
+                    <br>
+                    WWW.ViiCHECK.COM 
+                    &nbsp;&nbsp;
+                    <a class="link" style="font-size: 15px;" target="bank" href="{{ url('/privacy_policy') }}"><b>นโยบายเกี่ยวกับข้อมูลส่วนบุคคล</b></a>
+                    &nbsp;&nbsp;
+                    <a class="link" style="font-size: 15px;" target="bank" href="{{ url('/terms_of_service') }}"><b>ข้อกำหนดและเงื่อนไขการใช้บริการ</b></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="col-12">
+                  <div class="social-links" style="margin-left:-100px">
+                    <a href="https://www.facebook.com/ViiCheck-100959585396310" ><i class="fab fa-facebook"></i></a>
+                    <a href="https://line.me/R/ti/p/%40702ytkls" ><i class="fab fa-line"></i></a>
+                    <a href="mailto:contact.viicheck@gmail.com" ><i class="fas fa-mail-bulk"></i></a>
+                    <a href="#" ><i class="fab fa-youtube"></i></a>
+                    <a href="tel:020277856" ><i class="fas fa-phone-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!------end footer mobile ----------->
+
   </footer><!-- End Footer -->
 
     <div id="preloader"></div>
