@@ -119,7 +119,7 @@
         <div class="credits">
           <div class="row">
             <div class="col-1">
-                <p id="Certificate-banners"></p>
+                <!-- <p id="Certificate-banners"></p> -->
             </div>
             <!-- <div class="col-1">
                 <img width="100%" src="{{ asset('/img/logo/VII-check-LOGO-W-v1.png') }}">
