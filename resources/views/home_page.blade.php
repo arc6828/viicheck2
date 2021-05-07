@@ -22,7 +22,7 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
-                <img width="100%" src="{{ asset('/img/more/poster-v4-good-Vii-v3.jpg') }}" alt="">
+                <img width="100%" src="{{ asset('/img/more/poster-v4-good-Vii-v4.jpg') }}" alt="">
               <div class="text-center">
                 <br>
                 <a href="{{ asset('/img/more/poster-v4-good-Vii-v4.jpg') }}" class="more-btn galelry-lightbox">ดูเพิ่มเติม <i class="bx bx-chevron-right"></i></a>
