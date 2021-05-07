@@ -25,7 +25,7 @@
                 <img width="100%" src="{{ asset('/img/more/poster-v4-good-Vii-v3.jpg') }}" alt="">
               <div class="text-center">
                 <br>
-                <a href="{{ asset('/img/more/poster-v4-good-Vii-v3.jpg') }}" class="more-btn galelry-lightbox">ดูเพิ่มเติม <i class="bx bx-chevron-right"></i></a>
+                <a href="{{ asset('/img/more/poster-v4-good-Vii-v4.jpg') }}" class="more-btn galelry-lightbox">ดูเพิ่มเติม <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
