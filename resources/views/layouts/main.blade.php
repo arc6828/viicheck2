@@ -166,10 +166,12 @@
       <div class="me-md-auto text-center text-md-start">
         <div class="credits">
           <div class="row" style="margin-top:-40px;">
+              <div class="col-3">
+                <a href="https://www.trustmarkthai.com/callbackData/popup.php?data=0fb7dd20-26-5-1dd80cec414c4d670072026d423afa933e149&markID=firstmar" target="bank">
+                  <img width="100%" src="{{ asset('/img/logo/bns_registered.png') }}">
+                </a>
+              </div>
             <div class="col-3">
-                <p id="Certificate-banners"></p>
-            </div>
-            <div class="col-2">
                 <img width="100%" src="{{ asset('/img/logo/GreenLogo.png') }}">
             </div>
             <div class="col-3">
