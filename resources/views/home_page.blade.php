@@ -350,10 +350,10 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
-                <img width="100%" src="{{ asset('/img/more/poster-v4-good-Vii-v3.jpg') }}" alt="">
+            <img width="100%" src="{{ asset('/img/more/poster-v4-good-Vii-v4.jpg') }}" alt="">
               <div class="text-center">
                 <br>
-                <a href="{{ asset('/img/more/poster-v4-good-Vii-v3.jpg') }}" class="more-btn galelry-lightbox">ดูเพิ่มเติม <i class="bx bx-chevron-right"></i></a>
+                <a href="{{ asset('/img/more/poster-v4-good-Vii-v4.jpg') }}" class="more-btn galelry-lightbox">ดูเพิ่มเติม <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -459,7 +459,15 @@
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <i class="fas fa-car-alt"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="287" data-purecounter-duration="1" class="purecounter"></span>
+              <p>ลงทะเบียนแล้ว</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="fas fa-motorcycle"></i>
+              <span data-purecounter-start="0" data-purecounter-end="154" data-purecounter-duration="1" class="purecounter"></span>
               <p>ลงทะเบียนแล้ว</p>
             </div>
           </div>
@@ -467,24 +475,16 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="fas fa-car-crash"></i>
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-              <p>แจ้งเตือนหาเจ้าของรถ</p>
+              <span data-purecounter-start="0" data-purecounter-end="268" data-purecounter-duration="1" class="purecounter"></span>
+              <p>ให้การช่วยเหลือ</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
-              <i class="fas fa-gift"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-              <p>ได้รับของรางวัล</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="far fa-laugh-squint"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>พึงพอใจ</p>
+              <i class="fas fa-map-marked-alt"></i>
+              <span data-purecounter-start="0" data-purecounter-end="77" data-purecounter-duration="1" class="purecounter"></span>
+              <p>จังหวัดที่ครอบคลุม</p>
             </div>
           </div>
 
