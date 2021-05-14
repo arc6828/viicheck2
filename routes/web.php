@@ -77,3 +77,7 @@ Route::get('/district', function () {
     return view("district/index");
 });
 Route::resource('mylog', 'MylogController');
+
+
+// Redirect_To_ViicheckController
+Route::get('/modal', 'Redirect_To_ViicheckController@modal');
