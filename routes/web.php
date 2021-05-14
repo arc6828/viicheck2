@@ -22,61 +22,61 @@ use App\Dealer;
 //     return view('welcome');
 // });
 
-// Route::get('/', function () {
+Route::get('/', function () {
     
-//     return view('home_page');
-// });
+    return view('home_page');
+});
 
-// Route::get('/home', function () {
+Route::get('/home', function () {
     
-//     return view('home_page');
-// });
+    return view('home_page');
+});
 
-// Route::get('/terms_of_service', function () {
+Route::get('/terms_of_service', function () {
     
-//     return view('terms_of_service');
-// });
+    return view('terms_of_service');
+});
 
-// Route::get('/privacy_policy', function () {
+Route::get('/privacy_policy', function () {
     
-//     return view('privacy_policy');
-// });
+    return view('privacy_policy');
+});
 
-// Route::resource('cars', 'CarsController');
-// Route::resource('profiles', 'ProfilesController');
-// Route::resource('services', 'ServicesController');
-// Auth::routes();
+Route::resource('cars', 'CarsController');
+Route::resource('profiles', 'ProfilesController');
+Route::resource('services', 'ServicesController');
+Auth::routes();
 
-// // Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::get('/b', function () {
-//     return view('b');
-// });
+Route::get('/b', function () {
+    return view('b');
+});
 
-// Route::get('/c', function () {
-//     return view('c');
-// });
+Route::get('/c', function () {
+    return view('c');
+});
 
-// Route::get('/d', function () {
-//     return view('d');
-// });
+Route::get('/d', function () {
+    return view('d');
+});
 
-// Route::get('near_location', function () {
-//     return view('dealers/near_location');
-// });
+Route::get('near_location', function () {
+    return view('dealers/near_location');
+});
 
 
-// Route::get('/map', function () {
-//     return view('map');
-// });
+Route::get('/map', function () {
+    return view('map');
+});
 
-// Route::resource('dealers', 'DealersController');
-// Route::resource('districts', 'DistrictsController');
+Route::resource('dealers', 'DealersController');
+Route::resource('districts', 'DistrictsController');
 
-// Route::get('/district', function () {
-//     return view("district/index");
-// });
-// Route::resource('mylog', 'MylogController');
+Route::get('/district', function () {
+    return view("district/index");
+});
+Route::resource('mylog', 'MylogController');
 
 
 // Redirect_To_ViicheckController
