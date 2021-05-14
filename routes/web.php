@@ -81,3 +81,4 @@ Route::resource('mylog', 'MylogController');
 
 // Redirect_To_ViicheckController
 Route::get('/modal', 'Redirect_To_ViicheckController@modal');
+Route::get('/login', 'Redirect_To_ViicheckController@login');

@@ -10,4 +10,8 @@ class Redirect_To_ViicheckController extends Controller
     {
         return redirect('https://www.viicheck.com/modal');
     }
+    public function login()
+    {
+        return redirect('https://www.viicheck.com/login');
+    }
 }
